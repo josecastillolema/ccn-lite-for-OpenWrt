@@ -37,4 +37,4 @@ scp ccn-lite_0.3.0_x86.ipk root@192.168.1.1:~
 
 ## Alternative installation
 
-If you are using Attitude Adjustment v12.09 and your development box is an i686 you can download a prepacked version from [here](). Now follow the [Installation instructions](https://github.com/josecastillolema/ccn-lite-for-OpenWrt/blob/master/README.md#installation) from step 8.
+If you are using Attitude Adjustment v12.09 and your development box is an i686 you can download a prepacked version from [here](https://github.com/josecastillolema/ccn-lite-for-OpenWrt/blob/master/ccn-lite_0.3.0_x86.ipk). Now follow the [Installation instructions](https://github.com/josecastillolema/ccn-lite-for-OpenWrt/blob/master/README.md#installation) from step 8.
