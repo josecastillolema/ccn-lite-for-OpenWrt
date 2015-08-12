@@ -20,7 +20,7 @@
 
   `cp -r ccn-lite OpenWrt-SDK-x86-for-linux-i486-gcc-4.6-linaro_uClibc-0.9.33.2/package/`
 
-6. Now we’re all set to compile the *ccn-lite* package. Go to the root SDK directory (if you’re not already there) and type *make V=s* The *V=s* option is optional, but it is useful for debugging as it instructs the compiler to be “verbose” and output all the details of what it is doing.
+6. Now we’re all set to compile the *ccn-lite* package. Go to the root SDK directory (if you’re not already there) and type **_make V=s_**. The *V=s* option is optional, but it is useful for debugging as it instructs the compiler to be “verbose” and output all the details of what it is doing.
 
 7. If it compiled correctly, the newly created package (*ccn-lite_0.3.0_x86.ipk* in my case) is now located in the bin/packages subdirectory of the root SDK directory. This file is a *.ipk* file which is used by the *opkg* (Open PacKaGe management) system. *opkg* is a lightweight package management system for embedded devices, where space is an issue.
 
