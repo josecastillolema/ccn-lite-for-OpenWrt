@@ -1,6 +1,7 @@
-##############################################
+#########################################################
+# Author: Jose Castillo Lema <josecastillolema@gmail.com>
+#########################################################
 # OpenWrt Makefile for ccn-lite implementation
-#
 #
 # Most of the variables used here are defined in
 # the include directives below. We just need to
@@ -8,13 +9,11 @@
 # where to build our program, where to find
 # the source files, and where to install the
 # compiled program on the router.
-#
 # Be very careful of spacing in this file.
 # Indents should be tabs, not spaces, and
 # there should be no trailing whitespace in
 # lines that are not commented.
-#
-##############################################
+#########################################################
 
 include $(TOPDIR)/rules.mk
 
