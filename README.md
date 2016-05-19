@@ -28,7 +28,7 @@
 
   `scp ccn-lite_0.3.0_x86.ipk root@192.168.1.1:~`
 
-9. Now, ssh into the router. We just copied the package to root’s home directory so we are finally ready to install our program. In root’s home directory (where we end up immediately after connecting to the router via ssh) type **_opkg install helloworld_1_mipsel.ipk_** and the *opkg* system will do the rest. The packet depends on *libopenssl*, so if you don't have previously installed it just type **_opkg update; opkg install libopenssl_**.
+9. Now, ssh into the router. We just copied the package to root’s home directory so we are finally ready to install our program. In root’s home directory (where we end up immediately after connecting to the router via ssh) type **_opkg install ccn-lite_0.3.0_x86.ipk_** and the *opkg* system will do the rest. The packet depends on *libopenssl*, so if you don't have previously installed it just type **_opkg update; opkg install libopenssl_**.
 
 10. The executables have now been installed into the */bin* directory on the router, per our instructions in the OpenWrt Makefile. So, all we have to do to run the programs is type **ccn-lite-***  at the prompt. Note that because the executables have been installed to the */bin* directory, you should be able to execute the program no matter what directory you are in on the router.
 
