@@ -3,8 +3,7 @@
 
 ## Installation
 
-1. Dowload *ccn-lite* from the Github account.
-  
+1. Dowload *ccn-lite* from the Github account.  
   `git clone https://github.com/cn-uofbasel/ccn-lite`
   
 2. Place the [Makefile](https://github.com/josecastillolema/ccn-lite-for-OpenWrt/blob/master/Makefile) under the **ccn-lite** directory.
