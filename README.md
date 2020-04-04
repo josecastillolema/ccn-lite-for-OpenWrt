@@ -19,7 +19,7 @@
 
 6. Now we’re all set to compile the *ccn-lite* package. Go to the root SDK directory (if you’re not already there) and type **_make V=s_**. The *V=s* option is optional, but it is useful for debugging as it instructs the compiler to be “verbose” and output all the details of what it is doing.
 
-7. If it compiled correctly, the newly created package (*ccn-lite_0.3.0_x86.ipk* in my case) is now located in the bin/packages subdirectory of the root SDK directory. This file is a *.ipk* file which is used by the *opkg* (Open PacKaGe management) system. *opkg* is a lightweight package management system for embedded devices, where space is an issue.
+7. If it compiled correctly, the newly created package (*ccn-lite_0.3.0_x86.ipk* in my case) is now located in the bin/packages subdirectory of the root SDK directory. This file is a *.ipk* file which is used by the *opkg* (Open PacKaGe management) system. [*opkg*](https://openwrt.org/docs/guide-user/additional-software/opkg) is a lightweight package management system for embedded devices, where space is an issue.
 
 8. Copy this package onto the router, which is located at 192.168.1.1 on my network.  
   `scp ccn-lite_0.3.0_x86.ipk root@192.168.1.1:~`
