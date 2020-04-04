@@ -14,14 +14,14 @@
   `tar xfj OpenWrt-SDK-x86-for-linux-i486-gcc-4.6-linaro_uClibc-0.9.33.2.tar.bz2`
 
 
-5. Copy the modified **ccn-lite** directory we made earlier into the **package** subdirectory of the SDK.
+5. Copy the modified **ccn-lite** directory we made earlier into the **package** subdirectory of the SDK.  
   `cp -r ccn-lite OpenWrt-SDK-x86-for-linux-i486-gcc-4.6-linaro_uClibc-0.9.33.2/package/`
 
 6. Now we’re all set to compile the *ccn-lite* package. Go to the root SDK directory (if you’re not already there) and type **_make V=s_**. The *V=s* option is optional, but it is useful for debugging as it instructs the compiler to be “verbose” and output all the details of what it is doing.
 
 7. If it compiled correctly, the newly created package (*ccn-lite_0.3.0_x86.ipk* in my case) is now located in the bin/packages subdirectory of the root SDK directory. This file is a *.ipk* file which is used by the *opkg* (Open PacKaGe management) system. *opkg* is a lightweight package management system for embedded devices, where space is an issue.
 
-8. Copy this package onto the router, which is located at 192.168.1.1 on my network.
+8. Copy this package onto the router, which is located at 192.168.1.1 on my network.  
   `scp ccn-lite_0.3.0_x86.ipk root@192.168.1.1:~`
 
 9. Now, ssh into the router. We just copied the package to root’s home directory so we are finally ready to install our program. In root’s home directory (where we end up immediately after connecting to the router via ssh) type **_opkg install ccn-lite_0.3.0_x86.ipk_** and the *opkg* system will do the rest. The packet depends on *libopenssl*, so if you don't have previously installed it just type **_opkg update; opkg install libopenssl_**.
