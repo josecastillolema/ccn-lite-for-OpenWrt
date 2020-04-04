@@ -10,7 +10,7 @@
 
 3. Download the OpenWrt SDK development environment from http://downloads.openwrt.org. The SDK varies depending on the architecture of your development box, the architecture of your router and the version/release of OpenWrt your router is running. I currently have Attitude Adjustment v12.09 installed locally on a VMWare virtual machine, and my development box is an i686, so the SDK I use is [this one](https://downloads.openwrt.org/attitude_adjustment/12.09/x86/generic/OpenWrt-SDK-x86-for-linux-i486-gcc-4.6-linaro_uClibc-0.9.33.2.tar.bz2).
 
-4. Extract the SDK files from the downloaded archive, and enter the SDK directory, which should have the same name as the tar.bz2 file (in my case *OpenWrt-SDK-x86-for-linux-i486-gcc-4.6-linaro_uClibc-0.9.33.2*).
+4. Extract the SDK files from the downloaded archive, and enter the SDK directory, which should have the same name as the tar.bz2 file (in my case *OpenWrt-SDK-x86-for-linux-i486-gcc-4.6-linaro_uClibc-0.9.33.2*).  
   `tar xfj OpenWrt-SDK-x86-for-linux-i486-gcc-4.6-linaro_uClibc-0.9.33.2.tar.bz2`
 
 
