@@ -1,5 +1,4 @@
 ![GitHub](https://img.shields.io/github/license/josecastillolema/ccn-lite-for-OpenWrt)
-![GitHub language count](https://img.shields.io/github/languages/count/josecastillolema/ccn-lite-for-OpenWrt)
 ![GitHub top language](https://img.shields.io/github/languages/top/josecastillolema/ccn-lite-for-OpenWrt)
 
 # ccn-lite-for-OpenWrt
