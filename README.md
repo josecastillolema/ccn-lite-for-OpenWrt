@@ -1,6 +1,6 @@
 ![GitHub](https://img.shields.io/github/license/josecastillolema/ccn-lite-for-OpenWrt)
 ![GitHub top language](https://img.shields.io/github/languages/top/josecastillolema/ccn-lite-for-OpenWrt)
-[![Requirements Status](https://requires.io/github/josecastillolema/ccn-lite-for-OpenWrt/requirements.svg?branch=master)](https://requires.io/github/josecastillolema/ccn-lite-for-OpenWrt/requirements/?branch=master)
+
 
 # ccn-lite-for-OpenWrt
 [*CCN-lite v.0.3.0*](http://www.ccn-lite.net/) cross-compiled for [OpenWrt](https://openwrt.org/).
